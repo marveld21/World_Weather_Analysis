@@ -7,7 +7,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 5,Cairns,AU,-16.9167,145.7667,64.35,94,75,9.22,light intensity shower rain
 6,Camacha,PT,33.0833,-16.3333,67.42,73,75,8.05,broken clouds
 7,Ketchikan,US,55.3422,-131.6461,55.38,95,100,4.09,light rain
-8,Ixtapa,MX,20.7,-105.2,88.23,65,100,4.0,overcast clouds
+8,Ixtapa,MX,20.7,-105.2,88.23,65,100,4,overcast clouds
 9,Alzamay,RU,55.5562,98.6644,54.91,74,100,2.1,overcast clouds
 10,Vila Velha,BR,-20.3297,-40.2925,72.55,76,11,11.48,few clouds
 11,Aksarka,RU,66.5606,67.7975,54.43,60,24,7.25,few clouds
@@ -23,7 +23,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 21,Adrar,MR,20.5022,-10.0711,100.83,15,18,8.7,few clouds
 22,Korla,CN,41.7597,86.1469,78.64,35,100,20.18,overcast clouds
 23,Acapulco,MX,16.8634,-99.8901,87.62,62,75,10.36,broken clouds
-24,Cape Town,ZA,-33.9258,18.4232,61.38,84,100,4.0,fog
+24,Cape Town,ZA,-33.9258,18.4232,61.38,84,100,4,fog
 25,Santa Marta,CO,11.2408,-74.199,83.1,74,12,16.26,few clouds
 26,Teya,RU,60.3778,92.6267,43.12,96,20,2.42,few clouds
 27,Sitka,US,57.0531,-135.33,57.51,94,99,5.53,light rain
@@ -76,7 +76,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 74,Patawag,PH,8.1064,122.6208,77.81,88,88,2.37,overcast clouds
 75,Leningradskiy,RU,69.3833,178.4167,41.77,68,100,5.97,overcast clouds
 76,Saraza,PH,8.7356,117.78,78.48,86,82,2.44,broken clouds
-77,Anadyr,RU,64.75,177.4833,50.0,66,79,11.01,broken clouds
+77,Anadyr,RU,64.75,177.4833,50,66,79,11.01,broken clouds
 78,Mucuri,BR,-18.0864,-39.5508,72.41,77,4,8.34,clear sky
 79,Chuy,UY,-33.6971,-53.4616,58.86,99,100,1.32,overcast clouds
 80,Severo-Kurilsk,RU,50.6789,156.125,54.84,93,70,9.86,broken clouds
@@ -85,8 +85,8 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 83,Muroto,JP,33.2833,134.15,75.49,92,100,7.85,moderate rain
 84,Saskylakh,RU,71.9167,114.0833,50.59,60,32,1.7,scattered clouds
 85,Guiratinga,BR,-16.3494,-53.7583,84.96,28,36,4.27,scattered clouds
-86,Rock Springs,US,41.5875,-109.2029,80.24,42,100,7.0,overcast clouds
-87,Gwanda,ZW,-20.9333,29.0,58.98,46,72,12.46,broken clouds
+86,Rock Springs,US,41.5875,-109.2029,80.24,42,100,7,overcast clouds
+87,Gwanda,ZW,-20.9333,29,58.98,46,72,12.46,broken clouds
 88,Victoria,HK,22.2855,114.1577,86.38,83,100,11.01,overcast clouds
 89,Nome,US,64.5011,-165.4064,61.16,57,47,6.26,scattered clouds
 90,Adre,TD,13.4667,22.2,73.62,84,100,6.08,moderate rain
@@ -97,11 +97,11 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 95,Mataura,NZ,-46.1927,168.8643,35.47,96,91,3.74,overcast clouds
 96,Provideniya,RU,64.3833,-173.3,47.8,68,79,1.32,broken clouds
 97,Asau,RO,46.4333,26.4,67.12,90,26,2.51,scattered clouds
-98,Puerto Ayora,EC,-0.7393,-90.3518,73.36,92,67,10.0,broken clouds
+98,Puerto Ayora,EC,-0.7393,-90.3518,73.36,92,67,10,broken clouds
 99,Isla Mujeres,MX,21.2311,-86.731,89.65,69,45,9.95,scattered clouds
 100,Nuuk,GL,64.1835,-51.7216,39.81,93,75,12.66,fog
 101,Palmer,US,42.1584,-72.3287,85.06,39,40,5.75,scattered clouds
-102,Fortuna,US,40.5982,-124.1573,71.92,67,0,7.0,clear sky
+102,Fortuna,US,40.5982,-124.1573,71.92,67,0,7,clear sky
 103,Hamilton,US,39.1834,-84.5333,87.94,48,75,12.66,broken clouds
 104,Clarence Town,AU,-32.5833,151.7833,46.85,81,81,2.93,broken clouds
 105,Tongliao,CN,43.6125,122.2653,64.56,97,10,9.46,clear sky
@@ -141,7 +141,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 139,Aklavik,CA,68.2191,-135.0107,56.64,48,85,6.38,overcast clouds
 140,Hami,CN,42.8,93.45,76.95,12,16,12.17,few clouds
 141,New Norfolk,AU,-42.7826,147.0587,46.89,82,100,1.01,overcast clouds
-142,Eureka,US,40.8021,-124.1637,72.19,70,4,7.0,clear sky
+142,Eureka,US,40.8021,-124.1637,72.19,70,4,7,clear sky
 143,Hilo,US,19.7297,-155.09,90.28,77,100,11.5,overcast clouds
 144,Taoudenni,ML,22.6783,-3.9836,103.75,6,0,24.09,clear sky
 145,Naze,JP,28.3667,129.4833,80.71,87,89,14.85,overcast clouds
@@ -155,7 +155,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 153,Erzin,TR,36.9559,36.2,74.26,79,4,1.72,clear sky
 154,Esperance,AU,-33.8667,121.9,53.44,78,100,12.77,overcast clouds
 155,Manor,IN,19.75,72.9167,79.29,89,100,15.05,overcast clouds
-156,Russell,US,32.3502,-85.1999,91.0,58,69,1.07,broken clouds
+156,Russell,US,32.3502,-85.1999,91,58,69,1.07,broken clouds
 157,Yurgamysh,RU,55.3714,64.4656,64.09,93,100,7.52,overcast clouds
 158,Ribeira Grande,PT,38.5167,-28.7,70.79,88,32,11.54,scattered clouds
 159,Salalah,OM,17.0151,54.0924,78.82,87,100,10.02,light rain
@@ -164,7 +164,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 162,Luanda,AO,-8.8368,13.2343,69.8,88,0,5.75,clear sky
 163,Pevek,RU,69.7008,170.3133,36.93,70,100,4.47,overcast clouds
 164,Ramsey,US,45.0333,-93.0835,91.42,56,20,6.91,few clouds
-165,Portland,US,45.5234,-122.6762,82.56,42,20,7.0,few clouds
+165,Portland,US,45.5234,-122.6762,82.56,42,20,7,few clouds
 166,Nelson Bay,AU,-32.7167,152.15,46.99,92,52,8.01,broken clouds
 167,Tuktoyaktuk,CA,69.4541,-133.0374,39.51,74,54,8.97,broken clouds
 168,Deputatskiy,RU,69.3,139.9,54.54,76,66,6.17,broken clouds
@@ -173,14 +173,14 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 171,Mindelo,CV,16.8901,-24.9804,74.52,78,82,14.45,broken clouds
 172,Hambantota,LK,6.1241,81.1185,78.76,81,96,16.96,overcast clouds
 173,Vung Tau,VN,10.346,107.0843,79.03,87,100,9.33,moderate rain
-174,Whitehorse,CA,60.7161,-135.0538,61.11,82,95,3.0,overcast clouds
+174,Whitehorse,CA,60.7161,-135.0538,61.11,82,95,3,overcast clouds
 175,Cidreira,BR,-30.1811,-50.2056,62.31,97,99,10.42,overcast clouds
 176,Nemuro,JP,43.3236,145.575,61.03,86,100,11.92,overcast clouds
 177,Chokurdakh,RU,70.6333,147.9167,51.24,74,49,18.28,scattered clouds
 178,Bethel,US,41.3712,-73.414,85.55,50,50,1.01,scattered clouds
 179,Plainview,US,40.7765,-73.4673,85.48,53,0,11.5,clear sky
 180,Smirnykh,RU,49.75,142.8333,55.15,95,98,3.4,overcast clouds
-181,Torbay,CA,47.6666,-52.7314,71.89,88,100,3.0,overcast clouds
+181,Torbay,CA,47.6666,-52.7314,71.89,88,100,3,overcast clouds
 182,Vila Franca Do Campo,PT,37.7167,-25.4333,72.19,90,47,12.75,scattered clouds
 183,Bara,NG,10.3744,10.7288,73.94,85,100,2.08,overcast clouds
 184,Faanui,PF,-16.4833,-151.75,77.83,59,76,19.6,broken clouds
@@ -216,11 +216,11 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 214,Norman Wells,CA,65.282,-126.8329,61.47,48,95,4.52,overcast clouds
 215,Kenora,CA,49.8167,-94.4337,85.01,35,0,4.54,clear sky
 216,Ulladulla,AU,-35.35,150.4667,42.67,78,82,5.7,broken clouds
-217,Georgetown,MY,5.4112,100.3354,82.89,84,20,0.0,few clouds
+217,Georgetown,MY,5.4112,100.3354,82.89,84,20,0,few clouds
 218,Nikolskoye,RU,59.7035,30.7861,57.09,95,61,5.26,broken clouds
 219,Orlik,RU,52.5178,99.825,37.96,94,24,0.31,few clouds
 220,Riberalta,BO,-10.9833,-66.1,87.19,54,100,3.87,overcast clouds
-221,Berbera,SO,10.4396,45.0143,89.47,47,73,23.0,broken clouds
+221,Berbera,SO,10.4396,45.0143,89.47,47,73,23,broken clouds
 222,Coihaique,CL,-45.5752,-72.0662,31.95,74,40,2.3,scattered clouds
 223,Awjilah,LY,29.1081,21.2869,78.85,47,0,15.61,clear sky
 224,Hithadhoo,MV,-0.6,73.0833,83.39,74,97,16.15,overcast clouds
@@ -233,7 +233,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 231,San Cristobal,VE,7.7669,-72.225,78.98,62,35,4.61,scattered clouds
 232,Apac,UG,1.9756,32.5386,64.78,89,68,2.98,light rain
 233,Port Hardy,CA,50.6996,-127.4199,56.77,97,100,6.53,moderate rain
-234,Oswego,US,43.4501,-76.1497,82.9,47,38,4.0,scattered clouds
+234,Oswego,US,43.4501,-76.1497,82.9,47,38,4,scattered clouds
 235,Kolaras,IN,25.2333,77.6,81.7,73,93,5.48,overcast clouds
 236,Tasiilaq,GL,65.6145,-37.6368,48.36,75,100,14.88,overcast clouds
 237,Iqaluit,CA,63.7506,-68.5145,68.7,43,100,25.99,overcast clouds
@@ -251,7 +251,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 249,Gat,IL,31.61,34.7642,77.68,100,1,4.92,clear sky
 250,Manfredonia,IT,41.6259,15.9094,79.52,41,0,0.65,clear sky
 251,North Bend,US,43.4065,-124.2243,80.24,82,0,9.22,clear sky
-252,Lavrentiya,RU,65.5833,-171.0,45.97,62,12,4.45,few clouds
+252,Lavrentiya,RU,65.5833,-171,45.97,62,12,4.45,few clouds
 253,Manitowoc,US,44.0667,-87.8001,65.88,93,100,8.05,overcast clouds
 254,Saint-Nazaire,FR,47.2833,-2.2,80.87,54,0,10.36,clear sky
 255,Paamiut,GL,61.994,-49.6678,39.97,84,99,4.34,overcast clouds
@@ -279,10 +279,10 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 277,Harper,LR,4.375,-7.7169,74.75,85,100,9.66,overcast clouds
 278,Kahului,US,20.8947,-156.47,87.82,63,40,20.71,scattered clouds
 279,Lieksa,FI,63.3167,30.0167,55.99,81,99,5.68,overcast clouds
-280,Victoria Point,AU,-27.5833,153.3,46.62,93,0,3.0,clear sky
+280,Victoria Point,AU,-27.5833,153.3,46.62,93,0,3,clear sky
 281,Springdale,US,36.1867,-94.1288,98.47,39,20,11.5,few clouds
 282,Kikwit,CD,-5.041,18.8162,82.47,30,63,0.54,broken clouds
-283,Phuket,TH,8.0,98.25,85.08,93,40,2.3,moderate rain
+283,Phuket,TH,8,98.25,85.08,93,40,2.3,moderate rain
 284,Sabha,LY,27.0377,14.4283,82.58,20,0,9.44,clear sky
 285,Launceston,AU,-41.45,147.1667,45.16,93,100,5.75,moderate rain
 286,Longyearbyen,SJ,78.2186,15.6401,57.04,62,75,13.8,broken clouds
@@ -328,7 +328,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 326,Dikson,RU,73.5069,80.5464,47.44,71,100,5.1,overcast clouds
 327,Cherdyn,RU,60.403,56.4787,60.49,95,99,2.08,overcast clouds
 328,Wanlaweyn,SO,2.6185,44.8938,74.01,81,98,14.16,overcast clouds
-329,Sandwick,GB,60.0,-1.25,51.62,76,75,5.75,broken clouds
+329,Sandwick,GB,60,-1.25,51.62,76,75,5.75,broken clouds
 330,Znamenskoye,RU,57.1281,73.8282,57.18,94,46,1.57,scattered clouds
 331,Karratha,AU,-20.7377,116.8463,63.81,46,2,7.54,clear sky
 332,Walvis Bay,NA,-22.9575,14.5053,72.09,30,0,4.88,clear sky
@@ -349,7 +349,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 347,Krasnovishersk,RU,60.4078,57.082,61.23,93,99,1.83,overcast clouds
 348,Kieta,PG,-6.2167,155.6333,79.23,75,76,4.18,broken clouds
 349,Kushima,JP,31.4583,131.2333,78.31,93,75,4.99,light rain
-350,Mar Del Plata,AR,-38.0023,-57.5575,51.1,92,100,7.0,light rain
+350,Mar Del Plata,AR,-38.0023,-57.5575,51.1,92,100,7,light rain
 351,Yar-Sale,RU,66.8333,70.8333,52.68,64,0,8.03,clear sky
 352,Huangnihe,CN,43.5583,128.0239,59.67,98,100,7.72,overcast clouds
 353,Yulara,AU,-25.2406,130.9889,44.58,29,0,3.87,clear sky
@@ -388,7 +388,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 386,Taltal,CL,-25.4,-70.4833,55.78,74,25,3.67,scattered clouds
 387,Lagos,NG,6.5833,3.75,75.51,88,96,5.64,overcast clouds
 388,Longonjo,AO,-12.9067,15.2533,59.97,37,0,3.85,clear sky
-389,Alice Springs,AU,-23.7,133.8833,42.35,39,0,0.0,clear sky
+389,Alice Springs,AU,-23.7,133.8833,42.35,39,0,0,clear sky
 390,Sergeyevka,KZ,53.88,67.4158,66.24,95,99,9.6,moderate rain
 391,Quelimane,MZ,-17.8786,36.8883,62.96,82,6,5.1,clear sky
 392,Puerto Del Rosario,ES,28.5004,-13.8627,74.95,69,20,12.66,few clouds
@@ -403,7 +403,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 401,Coquimbo,CL,-29.9533,-71.3436,55.13,58,75,5.75,broken clouds
 402,Emba,KZ,48.8264,58.1442,77.54,37,0,8.99,clear sky
 403,Beringovskiy,RU,63.05,179.3167,47.1,76,30,7.38,scattered clouds
-404,West Bay,KY,19.3667,-81.4167,86.0,73,96,3.87,overcast clouds
+404,West Bay,KY,19.3667,-81.4167,86,73,96,3.87,overcast clouds
 405,Alta Floresta,BR,-9.8756,-56.0861,92.89,27,11,2.95,few clouds
 406,Jumla,NP,29.2747,82.1838,62.02,89,77,0.34,broken clouds
 407,Zhangjiakou,CN,40.81,114.8794,77.09,37,100,2.46,overcast clouds
@@ -433,7 +433,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 431,Kuala Terengganu,MY,5.3302,103.1408,78.46,86,83,5.21,heavy intensity rain
 432,Tokmak,UA,47.2514,35.7058,65.86,66,0,4.83,clear sky
 433,Tezu,IN,27.9167,96.1667,78.3,85,18,4.36,few clouds
-434,Singkawang,ID,0.9,109.0,75.7,91,65,2.77,broken clouds
+434,Singkawang,ID,0.9,109,75.7,91,65,2.77,broken clouds
 435,Acajutla,SV,13.5928,-89.8275,84.4,72,96,7.81,overcast clouds
 436,Sorland,NO,67.667,12.6934,48.06,81,100,11.01,overcast clouds
 437,Nueva Helvecia,UY,-34.3,-57.2333,50.59,98,100,10.98,overcast clouds
@@ -459,7 +459,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 457,Reconquista,AR,-29.15,-59.65,57.88,93,100,10.4,overcast clouds
 458,Peterhead,GB,57.5058,-1.7981,55.8,83,29,10.42,scattered clouds
 459,Pangkalanbuun,ID,-2.6833,111.6167,73.06,99,73,2.48,broken clouds
-460,Tombouctou,ML,20.0,-3.0,99.54,8,0,6.42,clear sky
+460,Tombouctou,ML,20,-3,99.54,8,0,6.42,clear sky
 461,Santiago,CL,-33.4569,-70.6483,49.86,69,75,12.66,broken clouds
 462,Port-Gentil,GA,-0.7193,8.7815,75.16,83,75,8.05,broken clouds
 463,Keti Bandar,PK,24.1447,67.4497,82.2,85,99,19.39,light rain
@@ -468,7 +468,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 466,Tondano,ID,1.3038,124.9112,66.29,96,100,4.83,overcast clouds
 467,Biak,ID,-0.9131,122.8766,73.36,89,100,5.55,overcast clouds
 468,Constitucion,CL,-35.3333,-72.4167,45.21,86,100,9.35,light rain
-469,Talas,TR,38.6908,35.5538,61.47,72,0,0.0,clear sky
+469,Talas,TR,38.6908,35.5538,61.47,72,0,0,clear sky
 470,Vallenar,CL,-28.5708,-70.7581,40.6,93,100,3.85,overcast clouds
 471,Belmonte,BR,-15.8631,-38.8828,72.01,85,70,7.49,broken clouds
 472,Bardiyah,LY,31.7561,25.0865,77.09,75,0,19.8,clear sky
@@ -476,7 +476,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 474,Sechura,PE,-5.5569,-80.8222,72.64,55,0,19.69,clear sky
 475,Catamarca,AR,-28.4696,-65.7852,48.78,62,16,1.01,few clouds
 476,Atherton,GB,53.5237,-2.4935,61.29,82,7,1.99,clear sky
-477,Bali,ID,-8.5,115.0,77.97,89,34,5.14,scattered clouds
+477,Bali,ID,-8.5,115,77.97,89,34,5.14,scattered clouds
 478,Thunder Bay,CA,48.4001,-89.3168,67.03,68,20,7.9,few clouds
 479,Klimkovice,CZ,49.7881,18.1259,62.85,62,0,2.3,clear sky
 480,Dzhida,RU,50.6772,106.1806,60.01,72,100,4.18,overcast clouds
@@ -485,8 +485,8 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 483,Haines Junction,CA,60.7522,-137.5108,52.93,89,100,2.17,overcast clouds
 484,Marzuq,YE,14.4,46.4667,79.23,52,100,6.87,overcast clouds
 485,Puerto Madryn,AR,-42.7692,-65.0385,42.93,79,100,15.05,overcast clouds
-486,Rafaela,AR,-31.2503,-61.4867,55.0,57,77,11.99,broken clouds
-487,Gap,FR,44.6667,6.0,53.33,60,27,7.27,scattered clouds
+486,Rafaela,AR,-31.2503,-61.4867,55,57,77,11.99,broken clouds
+487,Gap,FR,44.6667,6,53.33,60,27,7.27,scattered clouds
 488,Songjianghe,CN,42.1859,127.479,59.7,99,100,1.72,overcast clouds
 489,Pagudpud,PH,18.5616,120.7868,79.38,85,96,8.1,overcast clouds
 490,Methoni,GR,36.8197,21.7049,79.21,62,0,5.68,clear sky
@@ -502,7 +502,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 500,Sarankhola,BD,22.3082,89.7897,81.55,86,30,8.7,scattered clouds
 501,Boke,GN,10.9409,-14.2967,75.54,95,100,3.69,light rain
 502,Avera,US,33.194,-82.5271,89.65,48,59,6.76,broken clouds
-503,Mareeba,AU,-17.0,145.4333,59.72,95,83,3.85,broken clouds
+503,Mareeba,AU,-17,145.4333,59.72,95,83,3.85,broken clouds
 504,Kamina,CD,-8.7386,24.9906,66.02,47,5,5.28,clear sky
 505,Kindu,CD,-2.95,25.95,76.59,62,92,2.62,overcast clouds
 506,Kodarma,IN,24.4667,85.6,81.1,77,8,8.75,clear sky
@@ -529,14 +529,14 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 527,Indaparapeo,MX,19.7833,-100.9667,68.68,68,100,3.44,overcast clouds
 528,Glendive,US,47.1053,-104.7125,96.42,35,0,12.66,clear sky
 529,Pemangkat,ID,1.1667,108.9667,77.36,89,70,4.07,broken clouds
-530,Urumqi,CN,43.801,87.6005,72.55,31,0,0.0,clear sky
+530,Urumqi,CN,43.801,87.6005,72.55,31,0,0,clear sky
 531,Vestmannaeyjar,IS,63.4427,-20.2734,52.07,91,100,28.1,moderate rain
 532,Marfino,RU,55.7028,37.3822,59.25,65,0,4.47,clear sky
 533,Vicente Guerrero,MX,19.1194,-98.1708,67.39,53,100,5.66,overcast clouds
 534,Buraydah,SA,26.326,43.975,90.01,11,87,10.69,overcast clouds
 535,Ginda,IN,30.6945,78.4932,65.84,77,12,5.3,few clouds
 536,Humen,CN,22.819,113.6731,85.12,81,100,8.41,overcast clouds
-537,Shwebo,MM,22.5667,95.7,84.0,70,88,9.13,overcast clouds
+537,Shwebo,MM,22.5667,95.7,84,70,88,9.13,overcast clouds
 538,Port Keats,AU,-14.25,129.55,59.79,67,10,8.14,clear sky
 539,Koygorodok,RU,60.445,50.9968,60.37,96,99,4.23,overcast clouds
 540,Jiexiu,CN,37.0244,111.9125,71.55,98,100,1.19,overcast clouds
@@ -553,7 +553,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 551,Sioni,GE,41.9895,45.0239,71.96,55,0,3.49,clear sky
 552,Plettenberg Bay,ZA,-34.0527,23.3716,57.97,77,100,2.84,overcast clouds
 553,Molina De Segura,ES,38.0546,-1.2076,83.71,44,0,1.99,clear sky
-554,Bundaberg,AU,-24.85,152.35,52.21,91,4,3.0,clear sky
+554,Bundaberg,AU,-24.85,152.35,52.21,91,4,3,clear sky
 555,Antalaha,MG,-14.9003,50.2788,67.73,87,49,6.51,light rain
 556,Pimentel,PE,-6.8367,-79.9342,66.49,63,0,21.85,clear sky
 557,Ipixuna,BR,-1.7625,-48.8043,76.78,91,100,3.71,overcast clouds
@@ -638,7 +638,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 636,Atar,MR,20.5169,-13.0499,99.03,22,7,9.73,clear sky
 637,Mikkeli,FI,61.6886,27.2723,55.51,94,0,1.14,clear sky
 638,Eydhafushi,MV,5.1033,73.0708,81.73,79,56,8.97,broken clouds
-639,Madera,US,37.1666,-119.8343,106.86,19,0,4.0,clear sky
+639,Madera,US,37.1666,-119.8343,106.86,19,0,4,clear sky
 640,Dakar,SN,14.6937,-17.4441,82.53,78,40,9.22,scattered clouds
 641,Sorong,ID,-0.8833,131.25,76.69,92,46,9.75,scattered clouds
 642,Zeya,RU,53.75,127.2667,67.86,79,55,2.57,broken clouds
@@ -682,7 +682,7 @@ City_ID,City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Current Des
 680,Emerald,AU,-23.5333,148.1667,47.03,80,0,8.23,clear sky
 681,Port Alberni,CA,49.2413,-124.8028,64.92,87,100,5.01,overcast clouds
 682,Karaton,ID,-6.3424,106.1045,72.61,98,100,2.84,light rain
-683,Glubczyce,PL,50.2009,17.8286,59.0,58,81,1.48,broken clouds
+683,Glubczyce,PL,50.2009,17.8286,59,58,81,1.48,broken clouds
 684,Komsomolskiy,UZ,40.4272,71.7189,75.92,33,0,6.91,clear sky
 685,Omsukchan,RU,62.5333,155.8,71.85,50,0,4.72,clear sky
 686,Mussomeli,IT,37.5778,13.7513,71.87,73,0,3.04,clear sky
